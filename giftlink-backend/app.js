@@ -1,5 +1,7 @@
 /*jshint esversion: 8 */
 require('dotenv').config();
+console.log("Loaded MONGO_URL:", process.env.MONGO_URL);
+
 const express = require('express');
 const cors = require('cors');
 const pinoLogger = require('./logger');
